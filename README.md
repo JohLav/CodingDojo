@@ -14,3 +14,4 @@ It is organised as follows:
 
 The following katas are covered:
 - [Leap Years Kata](https://codingdojo.org/kata/LeapYears/)
+- [FizzBuzz](https://codingdojo.org/kata/FizzBuzz/)
