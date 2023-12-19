@@ -1,3 +1,7 @@
+###> miscellaneous ###
+*.DS_Store
+.idea/
+###< miscellaneous ###
 
 ###> symfony/framework-bundle ###
 /.env.local
