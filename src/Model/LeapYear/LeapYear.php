@@ -6,9 +6,10 @@ class LeapYear
 {
     public function isLeapYear(int $year = null): bool
     {
-        if (($year % 400) == 0 || (($year % 4) == 0 && ($year % 100) != 0)) {
-            return true; // It's a leap year
+        if (null === $year) {
+            $year = date('Y');
         }
-        return false; // It's not a leap year
+
+        return 0 == $year % 400 || (0 == $year % 4 && 0 != $year % 100);
     }
 }
